@@ -1,0 +1,17 @@
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\bin\Debug\AbdullinaPZ.exe.config
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\bin\Debug\AbdullinaPZ.exe
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\bin\Debug\AbdullinaPZ.pdb
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.csproj.AssemblyReference.cache
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\Views\MainWindow.g.cs
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\App.g.cs
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ_MarkupCompile.cache
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ_MarkupCompile.lref
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\Views\MainWindow.baml
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.g.resources
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.Properties.Resources.resources
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.csproj.GenerateResource.cache
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.csproj.CoreCompileInputs.cache
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\Abdullin.436059F6.Up2Date
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.exe
+D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.pdb
