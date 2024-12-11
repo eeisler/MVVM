@@ -1,6 +1,7 @@
 ﻿using AbdullinaPZ.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -22,6 +23,22 @@ namespace AbdullinaPZ.ViewModels
         private string _parts;
         private int _masterId;
         private int _clientId;
+
+        public ICommand EditCommand { get; }
+        public ICommand DeleteCommand { get; }
+
+        public ObservableCollection<RequestViewModel> Requests { get; set; } = new ObservableCollection<RequestViewModel>();
+
+        private RequestViewModel _selectedRequest;
+        public RequestViewModel SelectedRequest
+        {
+            get => _selectedRequest;
+            set
+            {
+                _selectedRequest = value;
+                OnPropertyChanged();
+            }
+        }
 
         public RequestViewModel()
         {

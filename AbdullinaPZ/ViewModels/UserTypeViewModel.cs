@@ -1,6 +1,7 @@
 ﻿using AbdullinaPZ.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -14,6 +15,22 @@ namespace AbdullinaPZ.ViewModels
     {
         private int _userTypeId;
         private string _userTypeName;
+
+        public ICommand EditCommand { get; }
+        public ICommand DeleteCommand { get; }
+
+        public ObservableCollection<UserTypeViewModel> Requests { get; set; } = new ObservableCollection<UserTypeViewModel>();
+
+        private UserTypeViewModel _selectedUserType;
+        public UserTypeViewModel SelectedUserType
+        {
+            get => _selectedUserType;
+            set
+            {
+                _selectedUserType = value;
+                OnPropertyChanged();
+            }
+        }
 
         public int UserTypeId
         {

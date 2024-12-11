@@ -1,6 +1,7 @@
 ﻿using AbdullinaPZ.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -14,6 +15,22 @@ namespace AbdullinaPZ.ViewModels
     {
         private int _techTypeId;
         private string _techTypeName;
+
+        public ICommand EditCommand { get; }
+        public ICommand DeleteCommand { get; }
+
+        public ObservableCollection<TechTypeViewModel> TechType { get; set; } = new ObservableCollection<TechTypeViewModel>();
+
+        private TechTypeViewModel _selectedTechType;
+        public TechTypeViewModel SelectedTechType
+        {
+            get => _selectedTechType;
+            set
+            {
+                _selectedTechType = value;
+                OnPropertyChanged();
+            }
+        }
 
         public int TechTypeId
         {

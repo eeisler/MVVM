@@ -26,12 +26,49 @@
 
         <Button Content="На главную" Margin="144,3,81,2" x:Name="HomePage" Foreground="#363636" Background="White" BorderThickness="0" FontFamily="Noto Sans" FontSize="12" Width="150" Height="50" Grid.Column="1"/>
 
-        <ListBox x:Name="List" BorderThickness="0.03" MinHeight="20"
-            Foreground="#363636" FontFamily="Noto Sans" FontSize="16"
-            Grid.Row="1" Padding="5" Grid.ColumnSpan="2"
-            KeyDown="list_KeyDown" MouseDoubleClick="list_DoubleClick"
-            VerticalContentAlignment="Stretch">
-        </ListBox>
+        <DataGrid x:Name="TechTypesList" 
+           ItemsSource="{Binding TechTypes}" 
+           AutoGenerateColumns="False" 
+           SelectedItem="{Binding SelectedTechType}" 
+           Margin="0,62,0,0" 
+           Grid.ColumnSpan="2" 
+           Grid.RowSpan="2" 
+           Foreground="#363636"
+           FontFamily="Noto Sans" 
+           FontSize="12"
+           Background="White">  
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding TechTypeId}" Width="22"/>
+                <DataGridTextColumn Header="Вид техники" Binding="{Binding TechTypeName}" Width="560"/>
+
+                <DataGridTemplateColumn Header="Редактировать" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="✎"
+                                Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                CommandParameter="{Binding}" 
+                                Padding="5" 
+                                Background="Transparent"
+                                Foreground="#363636"/>  
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Удалить" Width="70">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="🗑"
+                                Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                CommandParameter="{Binding}" 
+                                Padding="5" 
+                                Background="Transparent"
+                                Foreground="#363636"/>      
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
 
         <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Добавить вид" Click="AddReq_Click" Margin="285,3,285,2"
         Padding="5" Width="180" Height="50" BorderThickness="0"

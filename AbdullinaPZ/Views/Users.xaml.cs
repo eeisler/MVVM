@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbdullinaPZ.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,7 @@ namespace AbdullinaPZ.Views
         public Users()
         {
             InitializeComponent();
+            DataContext = new UserViewModel();
         }
     }
 }

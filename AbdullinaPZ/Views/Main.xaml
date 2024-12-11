@@ -35,6 +35,55 @@
                 VerticalContentAlignment="Stretch">
         </ListBox>
 
+        <DataGrid x:Name="RequestsList"
+          ItemsSource="{Binding Requests}"
+          AutoGenerateColumns="False"
+          SelectedItem="{Binding SelectedRequest}"
+          Margin="0,62,0,0"
+          Grid.ColumnSpan="2"
+          Grid.RowSpan="2"
+          Foreground="#363636"
+          FontFamily="Noto Sans"
+          FontSize="12"
+          Background="White">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding RequestId}" Width="22"/>
+                <DataGridTextColumn Header="Начало" Binding="{Binding StartDate, StringFormat={}{0:dd.MM.yyyy}}" Width="55"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding TechTypeId}" Width="50"/>
+                <DataGridTextColumn Header="Проблема" Binding="{Binding Problem}" Width="100"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding RequestStatusId}" Width="100"/>
+                <DataGridTextColumn Header="Завершено" Binding="{Binding CompleteDate, StringFormat={}{0:dd.MM.yyyy}}" Width="80"/>
+                <DataGridTextColumn Header="Мастер" Binding="{Binding MasterId}" Width="90"/>
+                <DataGridTextColumn Header="Клиент" Binding="{Binding ClientId}" Width="90"/>
+
+                <DataGridTemplateColumn Header="Редактировать" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="✎"
+                            Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                            CommandParameter="{Binding}" 
+                            Padding="5" 
+                            Background="Transparent"
+                            Foreground="#363636"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Удалить" Width="70">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="🗑"
+                            Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                            CommandParameter="{Binding}" 
+                            Padding="5" 
+                            Background="Transparent"
+                            Foreground="#363636"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
         <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Создать заявку" Click="AddReq_Click" Margin="285,3,285,2"
             Padding="5" Width="180" Height="50" BorderThickness="0"
             Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">

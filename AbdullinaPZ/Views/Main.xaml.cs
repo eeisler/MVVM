@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbdullinaPZ.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,16 +13,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace AbdullinaPZ.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для Requests.xaml
-    /// </summary>
     public partial class Requests : Window
     {
         public Requests()
         {
             InitializeComponent();
+            DataContext = new RequestViewModel();
         }
     }
 }

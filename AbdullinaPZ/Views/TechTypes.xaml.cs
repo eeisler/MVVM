@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbdullinaPZ.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,14 +15,12 @@ using System.Windows.Shapes;
 
 namespace AbdullinaPZ.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для TechTypes.xaml
-    /// </summary>
     public partial class TechTypes : Window
     {
         public TechTypes()
         {
             InitializeComponent();
+            DataContext = new TechTypeViewModel();
         }
     }
 }
