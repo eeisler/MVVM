@@ -1,12 +1,79 @@
-﻿<Window x:Class="AbdullinaPZ.Views.Request"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AbdullinaPZ.Views"
-        mc:Ignorable="d"
-        Title="Request" Height="450" Width="800">
-    <Grid>
-        
+﻿<Window x:Class="AbdullinaPZ.Views.Request" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d" 
+        Title="Request" Height="600" Width="800">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Заявка" FontSize="25" FontWeight="Bold" Grid.ColumnSpan="2"  
+            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,20" Foreground="#363636" FontFamily="Noto Sans"/>
+
+        <TextBlock Text="Start Date:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" FontSize="16" Foreground="#363636" FontFamily="Noto Sans" />
+        <DatePicker SelectedDate="{Binding StartDate}" Grid.Row="1" Grid.Column="1" Margin="5" />
+
+        <TextBlock Text="Tech Type:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+        <ComboBox SelectedValue="{Binding TechTypeId}" Grid.Row="2" Grid.Column="1" Margin="5" ItemsSource="{Binding TechType}"/>
+
+        <TextBlock Text="Tech Model:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox Text="{Binding TechModel}" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+        <TextBlock Text="Problem:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox Text="{Binding Problem}" Grid.Row="4" Grid.Column="1" Margin="5" />
+
+        <TextBlock Text="Request Status:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+        <ComboBox SelectedValue="{Binding RequestStatusId}" Grid.Row="5" Grid.Column="1" Margin="5" ItemsSource="{Binding RequestStatus}"/>
+
+        <TextBlock Text="Completion Date:" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+            <DatePicker SelectedDate="{Binding CompleteDate}" Grid.Row="6" Grid.Column="1" Margin="5" />
+
+            <TextBlock Text="Parts:" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox Text="{Binding Parts}" Grid.Row="7" Grid.Column="1" Margin="5" />
+
+            <TextBlock Text="Master ID:" Grid.Row="8" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox Text="{Binding MasterId}" Grid.Row="8" Grid.Column="1" Margin="5" />
+
+            <TextBlock Text="Client ID:" Grid.Row="9" Grid.Column="0" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox Text="{Binding ClientId}" Grid.Row="9" Grid.Column="1" Margin="5" />
+
+            <StackPanel Grid.Row="10" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10" >
+                <Button Content="Save" Command="{Binding SaveCommand}" Width="100" Margin="10" BorderThickness="0" 
+                     Background="#363636" Foreground="White" FontFamily="Noto Sans"
+             
+ FontSize="18">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button Content="Edit" Command="{Binding EditCommand}" Width="100" Margin="10" BorderThickness="0" 
+     Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
 ﻿using AbdullinaPZ.Helpers;
+using AbdullinaPZ18.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,16 +14,11 @@ namespace AbdullinaPZ.ViewModels
 {
     public class TechTypeViewModel : INotifyPropertyChanged
     {
-        private int _techTypeId;
-        private string _techTypeName;
+        private TechType _selectedTechType;
 
-        public ICommand EditCommand { get; }
-        public ICommand DeleteCommand { get; }
+        public ObservableCollection<TechType> TechTypes { get; set; } = new ObservableCollection<TechType>();
 
-        public ObservableCollection<TechTypeViewModel> TechType { get; set; } = new ObservableCollection<TechTypeViewModel>();
-
-        private TechTypeViewModel _selectedTechType;
-        public TechTypeViewModel SelectedTechType
+        public TechType SelectedTechType
         {
             get => _selectedTechType;
             set
@@ -32,41 +28,49 @@ namespace AbdullinaPZ.ViewModels
             }
         }
 
-        public int TechTypeId
-        {
-            get => _techTypeId;
-            set
-            {
-                _techTypeId = value;
-                OnPropertyChanged();
-            }
-        }
+        public string NewTechTypeName { get; set; }
 
-        public string TechTypeName
-        {
-            get => _techTypeName;
-            set
-            {
-                _techTypeName = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public ICommand SaveCommand { get; }
+        public ICommand AddTechTypeCommand { get; }
+        public ICommand DeleteTechTypeCommand { get; }
 
         public TechTypeViewModel()
         {
-            SaveCommand = new RelayCommand(Save, CanSave);
+            AddTechTypeCommand = new RelayCommand(AddTechType);
+            DeleteTechTypeCommand = new RelayCommand(DeleteTechType);
+
+            LoadTechTypes();
         }
 
-        private void Save()
+        private void LoadTechTypes()
         {
-            // Save logic make
+            TechTypes.Add(new TechType { TechTypeId = 1, TechTypeName = "Electronics" });
+            TechTypes.Add(new TechType { TechTypeId = 2, TechTypeName = "Appliances" });
         }
 
-        private bool CanSave()
+        private void AddTechType()
         {
-            return !string.IsNullOrEmpty(TechTypeName);
+            if (string.IsNullOrWhiteSpace(NewTechTypeName))
+                return;
+
+            var nextId = TechTypes.Any() ? TechTypes.Max(tt => tt.TechTypeId) + 1 : 1;
+            var newTechType = new TechType
+            {
+                TechTypeId = nextId,
+                TechTypeName = NewTechTypeName
+            };
+
+            TechTypes.Add(newTechType);
+
+            NewTechTypeName = string.Empty;
+            OnPropertyChanged(nameof(NewTechTypeName));
+        }
+
+        private void DeleteTechType()
+        {
+            if (SelectedTechType == null)
+                return;
+
+            TechTypes.Remove(SelectedTechType);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -76,4 +80,5 @@ namespace AbdullinaPZ.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
+
 }

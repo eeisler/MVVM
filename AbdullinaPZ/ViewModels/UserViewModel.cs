@@ -1,4 +1,6 @@
 ﻿using AbdullinaPZ.Helpers;
+using AbdullinaPZ.Views;
+using AbdullinaPZ18.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,20 +15,12 @@ namespace AbdullinaPZ.ViewModels
 {
     public class UserViewModel : INotifyPropertyChanged
     {
-        private int _userId;
-        private string _userName;
-        private string _phone;
-        private string _login;
-        private string _password;
-        private int _userTypeId;
+        private User _selectedUser;
 
-        public ICommand EditCommand { get; }
-        public ICommand DeleteCommand { get; }
+        public ObservableCollection<User> Users { get; set; } = new ObservableCollection<User>();
+        public ObservableCollection<UserType> UserTypes { get; set; } = new ObservableCollection<UserType>();
 
-        public ObservableCollection<UserViewModel> Requests { get; set; } = new ObservableCollection<UserViewModel>();
-
-        private UserViewModel _selectedUser;
-        public UserViewModel SelectedUser
+        public User SelectedUser
         {
             get => _selectedUser;
             set
@@ -36,81 +30,73 @@ namespace AbdullinaPZ.ViewModels
             }
         }
 
-        public int UserId
-        {
-            get => _userId;
-            set
-            {
-                _userId = value;
-                OnPropertyChanged();
-            }
-        }
+        public string NewUserName { get; set; }
+        public string NewPhone { get; set; }
+        public string NewLogin { get; set; }
+        public string NewPassword { get; set; }
+        public int SelectedUserTypeId { get; set; }
 
-        public string UserName
-        {
-            get => _userName;
-            set
-            {
-                _userName = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Phone
-        {
-            get => _phone;
-            set
-            {
-                _phone = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Login
-        {
-            get => _login;
-            set
-            {
-                _login = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Password
-        {
-            get => _password;
-            set
-            {
-                _password = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public int UserTypeId
-        {
-            get => _userTypeId;
-            set
-            {
-                _userTypeId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public ICommand SaveCommand { get; }
+        public ICommand AddUserCommand { get; }
+        public ICommand DeleteUserCommand { get; }
 
         public UserViewModel()
         {
-            SaveCommand = new RelayCommand(Save, CanSave);
+            AddUserCommand = new RelayCommand(AddUser);
+            DeleteUserCommand = new RelayCommand(DeleteUser);
+
+            LoadUsers();
+            LoadUserTypes();
         }
 
-        private void Save()
+        private void LoadUsers()
         {
-            // to do save logic 
+            Users.Add(new User { UserId = 1, UserName = "John Doe", Phone = "1234567890", Login = "johndoe", Password = "password123", UserTypeId = 1 });
+            Users.Add(new User { UserId = 2, UserName = "Jane Smith", Phone = "0987654321", Login = "janesmith", Password = "password123", UserTypeId = 2 });
         }
 
-        private bool CanSave()
+        private void LoadUserTypes()
         {
-            return !string.IsNullOrEmpty(UserName) && Phone.Length == 10 && Phone.All(char.IsDigit);
+            UserTypes.Add(new UserType { UserTypeId = 1, UserTypeName = "Мастер" });
+            UserTypes.Add(new UserType { UserTypeId = 2, UserTypeName = "Клиент" });
+        }
+
+        private void AddUser()
+        {
+            if (string.IsNullOrWhiteSpace(NewUserName) || string.IsNullOrWhiteSpace(NewPhone) || string.IsNullOrWhiteSpace(NewLogin) || string.IsNullOrWhiteSpace(NewPassword))
+                return;
+
+            if (!NewPhone.All(char.IsDigit) || NewPhone.Length != 10)
+                return;
+
+            var nextId = Users.Any() ? Users.Max(u => u.UserId) + 1 : 1;
+            var newUser = new User
+            {
+                UserId = nextId,
+                UserName = NewUserName,
+                Phone = NewPhone,
+                Login = NewLogin,
+                Password = NewPassword,
+                UserTypeId = SelectedUserTypeId
+            };
+
+            Users.Add(newUser);
+
+            NewUserName = string.Empty;
+            NewPhone = string.Empty;
+            NewLogin = string.Empty;
+            NewPassword = string.Empty;
+            OnPropertyChanged(nameof(NewUserName));
+            OnPropertyChanged(nameof(NewPhone));
+            OnPropertyChanged(nameof(NewLogin));
+            OnPropertyChanged(nameof(NewPassword));
+        }
+
+        private void DeleteUser()
+        {
+            if (SelectedUser == null)
+                return;
+
+            Users.Remove(SelectedUser);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -120,4 +106,7 @@ namespace AbdullinaPZ.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
+
+
+
 }

@@ -1,21 +1,34 @@
-﻿using System;
+﻿using AbdullinaPZ18.Interfaces;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AbdullinaPZ18.Models
 {
-    public class Comment
+    public class Comment : IComment, INotifyPropertyChanged
     {
+        private string _message;
+
         [Key]
-        public int CommentId { get; private set; }
+        public int CommentId { get; set; }
 
         [Required]
-        [MaxLength(200)]
-        public string Message { get; set; }
+        [MaxLength(200, ErrorMessage = "Сообщение не может быть длиннее 200 символов.")]
+        public string Message
+        {
+            get => _message;
+            set
+            {
+                _message = value;
+                OnPropertyChanged();
+            }
+        }
 
         [ForeignKey("Master")]
         public int MasterId { get; set; }
@@ -30,5 +43,11 @@ namespace AbdullinaPZ18.Models
             return Message.Length <= 250;
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

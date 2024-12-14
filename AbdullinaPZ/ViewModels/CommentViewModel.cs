@@ -1,94 +1,82 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using AbdullinaPZ.Helpers;
+using AbdullinaPZ18.Interfaces;
+using AbdullinaPZ18.Models;
+using System.Collections.ObjectModel;
 
 namespace AbdullinaPZ.ViewModels
 {
     public class CommentViewModel : INotifyPropertyChanged
     {
-        private int _commentId;
-        private string _message;
-        private int _masterId;
-        private int _requestId;
-        private bool _isMessageValid;
+        private Comment _selectedComment;
+
+        public ObservableCollection<Comment> Comments { get; set; } = new ObservableCollection<Comment>();
+
+        public Comment SelectedComment
+        {
+            get => _selectedComment;
+            set
+            {
+                _selectedComment = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string NewCommentMessage { get; set; }
+        public int NewCommentMasterId { get; set; }
+        public int NewCommentRequestId { get; set; }
+
+        public ICommand AddCommand { get; }
+        public ICommand DeleteCommand { get; }
 
         public CommentViewModel()
         {
-            SaveCommand = new RelayCommand(Save, CanSave);
+            AddCommand = new RelayCommand(AddComment);
+            DeleteCommand = new RelayCommand(DeleteComment);
+
+            LoadComments();
         }
 
-        public int CommentId
+        private void LoadComments()
         {
-            get => _commentId;
-            set
+            
+        }
+
+        private void AddComment()
+        {
+            if (string.IsNullOrWhiteSpace(NewCommentMessage) || NewCommentMasterId == 0 || NewCommentRequestId == 0)
+                return;
+
+            var nextId = Comments.Any() ? Comments.Max(c => c.CommentId) + 1 : 1;
+            var newComment = new Comment
             {
-                _commentId = value;
-                OnPropertyChanged();
-            }
+                CommentId = nextId,
+                Message = NewCommentMessage,
+                MasterId = NewCommentMasterId,
+                RequestId = NewCommentRequestId
+            };
+
+            Comments.Add(newComment);
+
+            NewCommentMessage = string.Empty;
+            OnPropertyChanged(nameof(NewCommentMessage));
         }
 
-        public string Message
+        private void DeleteComment()
         {
-            get => _message;
-            set
-            {
-                _message = value;
-                OnPropertyChanged();
-                IsMessageValid = IsMessageLengthValid(); 
-            }
-        }
+            if (SelectedComment == null)
+                return;
 
-        public int MasterId
-        {
-            get => _masterId;
-            set
-            {
-                _masterId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public int RequestId
-        {
-            get => _requestId;
-            set
-            {
-                _requestId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public bool IsMessageValid
-        {
-            get => _isMessageValid;
-            private set
-            {
-                _isMessageValid = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public ICommand SaveCommand { get; }
-
-        private bool IsMessageLengthValid()
-        {
-            return !string.IsNullOrEmpty(Message) && Message.Length <= 250;
-        }
-
-        private void Save()
-        {
-            // Add save logic 
-        }
-
-        private bool CanSave()
-        {
-            return IsMessageValid && !string.IsNullOrEmpty(Message);
+            Comments.Remove(SelectedComment);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

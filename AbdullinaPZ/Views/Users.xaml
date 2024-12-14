@@ -18,22 +18,22 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Text="Пользователи" Padding="0, 3, 0, 0"
-           Foreground="#363636" FontFamily="Noto Sans" FontSize="40" HorizontalAlignment="Left" 
-           Margin="0,0,0,274" Width="306" TextAlignment="Center" Grid.Row="0" FontWeight="Bold" Grid.RowSpan="2"/>
+                   Foreground="#363636" FontFamily="Noto Sans" FontSize="40" HorizontalAlignment="Left" 
+                   Margin="0,0,0,274" Width="306" TextAlignment="Center" Grid.Row="0" FontWeight="Bold" Grid.RowSpan="2"/>
 
         <Button Content="На главную" Margin="144,3,81,2" x:Name="HomePage" Foreground="#363636" Background="White" BorderThickness="0" FontFamily="Noto Sans" FontSize="12" Width="150" Height="50" Grid.Column="1"/>
 
         <DataGrid x:Name="UsersList" 
-          ItemsSource="{Binding Users}" 
-          AutoGenerateColumns="False" 
-          SelectedItem="{Binding SelectedUser}" 
-          Margin="0,62,0,0" 
-          Grid.ColumnSpan="2" 
-          Grid.RowSpan="2" 
-          Foreground="#363636"
-          FontFamily="Noto Sans" 
-          FontSize="12"
-          Background="White">   
+                  ItemsSource="{Binding Users}" 
+                  AutoGenerateColumns="False" 
+                  SelectedItem="{Binding SelectedUser}" 
+                  Margin="0,62,0,0" 
+                  Grid.ColumnSpan="2" 
+                  Grid.RowSpan="2" 
+                  Foreground="#363636"
+                  FontFamily="Noto Sans" 
+                  FontSize="12"
+                  Background="White">
 
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding UserId}" Width="22"/>
@@ -46,11 +46,11 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="✎"
-                                Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
-                                CommandParameter="{Binding}" 
-                                Padding="5" 
-                                Background="Transparent"
-                                Foreground="#363636"/>
+                                    Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}" 
+                                    Padding="5" 
+                                    Background="Transparent"
+                                    Foreground="#363636"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -59,20 +59,20 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="🗑"
-                                Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
-                                CommandParameter="{Binding}" 
-                                Padding="5" 
-                                Background="Transparent"
-                                Foreground="#363636"/>
+                                    Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}" 
+                                    Padding="5" 
+                                    Background="Transparent"
+                                    Foreground="#363636"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Добавить" Click="AddReq_Click" Margin="285,3,285,2"
-    Padding="5" Width="180" Height="50" BorderThickness="0"
-    Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
+        <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Добавить" Command="{Binding AddUserCommand}" Margin="285,3,285,2"
+                Padding="5" Width="180" Height="50" BorderThickness="0"
+                Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

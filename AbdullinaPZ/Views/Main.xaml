@@ -17,9 +17,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Source="/pics/lock.png" HorizontalAlignment="Left" Grid.Row="0"
-                Grid.ColumnSpan="2" Height="60" Width="60" VerticalAlignment="Top"/>
-
         <TextBlock Text="Заявки" Padding="0, 3, 0, 0"
                    Foreground="#363636" FontFamily="Noto Sans" FontSize="40" HorizontalAlignment="Left" 
                    Margin="0,0,0,274" Width="170" TextAlignment="Center" Grid.Row="0" FontWeight="Bold" Grid.RowSpan="2"/>
@@ -28,24 +25,17 @@
         <Button Content="Типы пользователей" Margin="34,2,191,3" x:Name="UserTypePage" Foreground="#363636" Background="White" BorderThickness="0" FontFamily="Noto Sans" FontSize="12" Width="150" Height="50" Grid.Column="1"/>
         <Button Content="Виды техники" Margin="213,3,12,2" x:Name="TechTypePage" Foreground="#363636" Background="White" BorderThickness="0" FontFamily="Noto Sans" FontSize="12" Width="150" Height="50" Grid.Column="1"/>
 
-        <ListBox x:Name="List" BorderThickness="0.03" MinHeight="20"
-                Foreground="#363636" FontFamily="Noto Sans" FontSize="16"
-                Grid.Row="1" Padding="5" Grid.ColumnSpan="2"
-                KeyDown="list_KeyDown" MouseDoubleClick="list_DoubleClick"
-                VerticalContentAlignment="Stretch">
-        </ListBox>
-
         <DataGrid x:Name="RequestsList"
-          ItemsSource="{Binding Requests}"
-          AutoGenerateColumns="False"
-          SelectedItem="{Binding SelectedRequest}"
-          Margin="0,62,0,0"
-          Grid.ColumnSpan="2"
-          Grid.RowSpan="2"
-          Foreground="#363636"
-          FontFamily="Noto Sans"
-          FontSize="12"
-          Background="White">
+                  ItemsSource="{Binding Requests}"
+                  AutoGenerateColumns="False"
+                  SelectedItem="{Binding SelectedRequest, Mode=TwoWay}"
+                  Margin="0,62,0,0"
+                  Grid.ColumnSpan="2"
+                  Grid.RowSpan="2"
+                  Foreground="#363636"
+                  FontFamily="Noto Sans"
+                  FontSize="12"
+                  Background="White">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding RequestId}" Width="22"/>
                 <DataGridTextColumn Header="Начало" Binding="{Binding StartDate, StringFormat={}{0:dd.MM.yyyy}}" Width="55"/>
@@ -60,11 +50,11 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="✎"
-                            Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
-                            CommandParameter="{Binding}" 
-                            Padding="5" 
-                            Background="Transparent"
-                            Foreground="#363636"/>
+                                    Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}" 
+                                    Padding="5" 
+                                    Background="Transparent"
+                                    Foreground="#363636"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -73,20 +63,20 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="🗑"
-                            Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
-                            CommandParameter="{Binding}" 
-                            Padding="5" 
-                            Background="Transparent"
-                            Foreground="#363636"/>
+                                    Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}" 
+                                    Padding="5" 
+                                    Background="Transparent"
+                                    Foreground="#363636"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Создать заявку" Click="AddReq_Click" Margin="285,3,285,2"
-            Padding="5" Width="180" Height="50" BorderThickness="0"
-            Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
+        <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Создать заявку" Command="{Binding SaveCommand}" Margin="285,3,285,2"
+                Padding="5" Width="180" Height="50" BorderThickness="0"
+                Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

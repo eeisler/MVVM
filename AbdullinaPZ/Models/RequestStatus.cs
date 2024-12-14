@@ -11,10 +11,13 @@ namespace AbdullinaPZ18.Models
     public class RequestStatus
     {
         [Key]
-        public int RequestStatusId { get; private set; }
+        public int RequestStatusId { get; set; }
 
         [Required]
         [MaxLength(100)]
         public string RequestStatusName { get; set; }
+
+        public RequestStatus() { }
     }
+
 }

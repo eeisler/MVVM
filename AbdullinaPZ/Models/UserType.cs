@@ -11,7 +11,7 @@ namespace AbdullinaPZ18.Models
     public class UserType
     {
         [Key]
-        public int UserTypeId { get; private set; }
+        public int UserTypeId { get; set; }
 
         [Required]
         [MaxLength(100)]
@@ -21,5 +21,9 @@ namespace AbdullinaPZ18.Models
         {
             return UserTypeName.Equals("Мастер", StringComparison.OrdinalIgnoreCase);
         }
+
+        public UserType() { }
+
     }
+
 }

@@ -11,10 +11,12 @@ namespace AbdullinaPZ18.Models
     public class TechType
     {
         [Key]
-        public int TechTypeId { get; private set; }
+        public int TechTypeId { get; set; } 
 
         [Required]
         [MaxLength(100)]
-        public string TechTypeName { get; set;}
+        public string TechTypeName { get; set; }
+
+        public TechType() { }
     }
 }

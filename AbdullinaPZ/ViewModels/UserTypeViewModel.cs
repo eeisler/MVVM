@@ -1,4 +1,5 @@
 ﻿using AbdullinaPZ.Helpers;
+using AbdullinaPZ18.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,16 +14,11 @@ namespace AbdullinaPZ.ViewModels
 {
     public class UserTypeViewModel : INotifyPropertyChanged
     {
-        private int _userTypeId;
-        private string _userTypeName;
+        private UserType _selectedUserType;
 
-        public ICommand EditCommand { get; }
-        public ICommand DeleteCommand { get; }
+        public ObservableCollection<UserType> UserTypes { get; set; } = new ObservableCollection<UserType>();
 
-        public ObservableCollection<UserTypeViewModel> Requests { get; set; } = new ObservableCollection<UserTypeViewModel>();
-
-        private UserTypeViewModel _selectedUserType;
-        public UserTypeViewModel SelectedUserType
+        public UserType SelectedUserType
         {
             get => _selectedUserType;
             set
@@ -32,46 +28,49 @@ namespace AbdullinaPZ.ViewModels
             }
         }
 
-        public int UserTypeId
-        {
-            get => _userTypeId;
-            set
-            {
-                _userTypeId = value;
-                OnPropertyChanged();
-            }
-        }
+        public string NewUserTypeName { get; set; }
 
-        public string UserTypeName
-        {
-            get => _userTypeName;
-            set
-            {
-                _userTypeName = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public ICommand SaveCommand { get; }
+        public ICommand AddUserTypeCommand { get; }
+        public ICommand DeleteUserTypeCommand { get; }
 
         public UserTypeViewModel()
         {
-            SaveCommand = new RelayCommand(Save, CanSave);
+            AddUserTypeCommand = new RelayCommand(AddUserType);
+            DeleteUserTypeCommand = new RelayCommand(DeleteUserType);
+
+            LoadUserTypes();
         }
 
-        private void Save()
+        private void LoadUserTypes()
         {
-            // Save logic
+            UserTypes.Add(new UserType { UserTypeId = 1, UserTypeName = "Мастер" });
+            UserTypes.Add(new UserType { UserTypeId = 2, UserTypeName = "Клиент" });
         }
 
-        private bool CanSave()
+        private void AddUserType()
         {
-            return !string.IsNullOrEmpty(UserTypeName);
+            if (string.IsNullOrWhiteSpace(NewUserTypeName))
+                return;
+
+            var nextId = UserTypes.Any() ? UserTypes.Max(ut => ut.UserTypeId) + 1 : 1;
+            var newUserType = new UserType
+            {
+                UserTypeId = nextId,
+                UserTypeName = NewUserTypeName
+            };
+
+            UserTypes.Add(newUserType);
+
+            NewUserTypeName = string.Empty;
+            OnPropertyChanged(nameof(NewUserTypeName));
         }
 
-        public bool IsMasterRole()
+        private void DeleteUserType()
         {
-            return UserTypeName.Equals("Мастер", StringComparison.OrdinalIgnoreCase);
+            if (SelectedUserType == null)
+                return;
+
+            UserTypes.Remove(SelectedUserType);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -81,4 +80,5 @@ namespace AbdullinaPZ.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
+
 }

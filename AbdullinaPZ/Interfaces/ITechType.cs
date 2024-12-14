@@ -13,4 +13,3 @@ namespace AbdullinaPZ18.Interfaces
     }
 
 }
-}

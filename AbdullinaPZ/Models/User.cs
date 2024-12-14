@@ -11,7 +11,7 @@ namespace AbdullinaPZ18.Models
     public class User
     {
         [Key]
-        public int UserId { get; private set; }
+        public int UserId { get; set; }
 
         [Required]
         [MaxLength(100)]
@@ -37,5 +37,8 @@ namespace AbdullinaPZ18.Models
         {
             return Phone.Length == 10 && Phone.All(char.IsDigit);
         }
+
+        public User() { }
     }
+
 }

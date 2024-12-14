@@ -11,6 +11,6 @@ namespace AbdullinaPZ18.Interfaces
         int UserTypeId { get; }
         string UserTypeName { get; set; }
 
-        public bool IsMasterRole()
+        bool IsMasterRole();
     }
 }

@@ -1,74 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\downloads\\abdullinapz\\abdullinapz\\views\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\views\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Request.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Views\\Request.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\UserType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\UserType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\TechType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\TechType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\UserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\RequestStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\RequestStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\RequestViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\Request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\Request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Helpers\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Helpers\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\CommentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Views\\Users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\TechTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\UserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\TechTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Views\\TechTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\UserTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\views\\request.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\views\\request.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\views\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\views\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\icomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\irequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\irequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\iusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\iusertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\UserType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\UserType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\TechType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\TechType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\RequestStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\RequestStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\interfaces\\itechtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\interfaces\\itechtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\viewmodels\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\viewmodels\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\Request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Models\\Request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\ViewModels\\CommentViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Helpers\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Helpers\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\UserTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:AbdullinaPZ\\Views\\UserTypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\views\\request.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\views\\request.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\eeisler\\mvvm\\abdullinapz\\views\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B511BB6-1876-4C74-AE61-11099829D0FF}|AbdullinaPZ\\AbdullinaPZ.csproj|solutionrelative:abdullinapz\\views\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,207 +114,344 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 24,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:25:31.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IComment.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IComment.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\IComment.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IComment.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\IComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:19:11.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IUserType.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\IUserType.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IUserType.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\IUserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:19:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITechType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\ITechType.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\ITechType.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\ITechType.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\ITechType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:16:36.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRequestStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IRequestStatus.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\IRequestStatus.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IRequestStatus.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\IRequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:15:17.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IRequest.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Interfaces\\IRequest.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Interfaces\\IRequest.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Interfaces\\IRequest.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:11:05.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\RequestViewModel.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\RequestViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T05:08:42.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\Comment.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\Comment.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:53:10.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Request.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Request.xaml.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Request.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Request.xaml.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\Request.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:11:52.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Request.xaml",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Request.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Request.xaml*",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\Request.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T03:56:12.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Main.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Main.xaml.cs",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\Main.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T03:55:26.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Main.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Main.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Main.xaml",
               "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Main.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Main.xaml",
-              "RelativeToolTip": "AbdullinaPZ\\Views\\Main.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Main.xaml*",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\Main.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-10T13:30:00.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Request.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Request.xaml",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Request.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Request.xaml",
-              "RelativeToolTip": "AbdullinaPZ\\Views\\Request.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T13:25:06.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "UserType.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\UserType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\UserType.cs",
               "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\UserType.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\UserType.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Models\\UserType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\UserType.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\UserType.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:18:21.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\User.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Models\\User.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:14:05.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TechType.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\TechType.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\TechType.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\TechType.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Models\\TechType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:10:34.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserTypeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:10:24.795Z"
+              "WhenOpened": "2024-12-10T13:18:21.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\UserViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\UserViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\User.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:10:11.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TechTypeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:09:54.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RequestStatusViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:08:45.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RequestStatus.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\RequestStatus.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\RequestStatus.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\RequestStatus.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Models\\RequestStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:06:49.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RequestViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\RequestViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:03:51.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\Request.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Models\\Request.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Models\\Request.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA4wCsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:00:28.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "AbdullinaPZ\\Helpers\\RelayCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:59:01.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CommentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
-              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:54:50.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Users.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Users.xaml",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Users.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\Users.xaml",
-              "RelativeToolTip": "AbdullinaPZ\\Views\\Users.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T12:36:05.496Z"
+              "WhenOpened": "2024-12-10T13:14:05.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "TechTypes.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\TechTypes.xaml",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\TechTypes.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\TechTypes.xaml",
-              "RelativeToolTip": "AbdullinaPZ\\Views\\TechTypes.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T12:35:51.815Z"
+              "Title": "TechType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\TechType.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\TechType.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\TechType.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\TechType.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:10:34.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\UserTypeViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:10:24.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\UserViewModel.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\UserViewModel.cs*",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv3AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:10:11.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TechTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\TechTypeViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:09:54.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "UserTypes.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\UserTypes.xaml",
-              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\UserTypes.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Downloads\\AbdullinaPZ\\AbdullinaPZ\\Views\\UserTypes.xaml",
-              "RelativeToolTip": "AbdullinaPZ\\Views\\UserTypes.xaml",
+              "Title": "RequestStatusViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\RequestStatusViewModel.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:08:45.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\RequestStatus.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\RequestStatus.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\RequestStatus.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:06:49.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Models\\Request.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Models\\Request.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Models\\Request.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:00:28.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Helpers\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Helpers\\RelayCommand.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\Helpers\\RelayCommand.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:59:01.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CommentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\ViewModels\\CommentViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\ViewModels\\CommentViewModel.cs*",
+              "RelativeToolTip": "AbdullinaPZ\\ViewModels\\CommentViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:54:50.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Users.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Users.xaml",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\Users.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\Users.xaml*",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\Users.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T12:35:35.984Z"
+              "WhenOpened": "2024-12-10T12:36:05.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechTypes.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\TechTypes.xaml",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\TechTypes.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\TechTypes.xaml",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\TechTypes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T12:35:51.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserTypes.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\UserTypes.xaml",
+              "RelativeDocumentMoniker": "AbdullinaPZ\\Views\\UserTypes.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\eeisler\\MVVM\\AbdullinaPZ\\Views\\UserTypes.xaml*",
+              "RelativeToolTip": "AbdullinaPZ\\Views\\UserTypes.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T12:35:35.984Z",
+              "EditorCaption": ""
             }
           ]
         }

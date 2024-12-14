@@ -13,6 +13,6 @@ namespace AbdullinaPZ18.Interfaces
         int MasterId { get; set; }
         int RequestId { get; set; }
 
-        public bool IsMessageLengthValid()
+        bool IsMessageLengthValid();
     }
 }

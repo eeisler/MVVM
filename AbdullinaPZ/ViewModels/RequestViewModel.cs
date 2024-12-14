@@ -1,4 +1,5 @@
 ﻿using AbdullinaPZ.Helpers;
+using AbdullinaPZ18.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,24 +14,11 @@ namespace AbdullinaPZ.ViewModels
 {
     public class RequestViewModel : INotifyPropertyChanged
     {
-        private int _requestId;
-        private DateTime? _startDate;
-        private int _techTypeId;
-        private string _techModel;
-        private string _problem;
-        private int _requestStatusId;
-        private DateTime? _completeDate;
-        private string _parts;
-        private int _masterId;
-        private int _clientId;
+        private Request _selectedRequest;
 
-        public ICommand EditCommand { get; }
-        public ICommand DeleteCommand { get; }
+        public ObservableCollection<Request> Requests { get; set; } = new ObservableCollection<Request>();
 
-        public ObservableCollection<RequestViewModel> Requests { get; set; } = new ObservableCollection<RequestViewModel>();
-
-        private RequestViewModel _selectedRequest;
-        public RequestViewModel SelectedRequest
+        public Request SelectedRequest
         {
             get => _selectedRequest;
             set
@@ -40,144 +28,98 @@ namespace AbdullinaPZ.ViewModels
             }
         }
 
+        public DateTime? NewRequestStartDate { get; set; }
+        public int NewRequestTechTypeId { get; set; }
+        public string NewRequestTechModel { get; set; }
+        public string NewRequestProblem { get; set; }
+        public int NewRequestRequestStatusId { get; set; }
+        public DateTime? NewRequestCompleteDate { get; set; }
+        public string NewRequestParts { get; set; }
+        public int NewRequestMasterId { get; set; }
+        public int NewRequestClientId { get; set; }
+
+        public ICommand AddRequestCommand { get; }
+        public ICommand DeleteRequestCommand { get; }
+
         public RequestViewModel()
         {
-            SaveCommand = new RelayCommand(Save, CanSave);
+            AddRequestCommand = new RelayCommand(AddRequest);
+            DeleteRequestCommand = new RelayCommand(DeleteRequest);
+
+            LoadRequests();
         }
 
-        public int RequestId
+        private void LoadRequests()
         {
-            get => _requestId;
-            set
+            Requests.Add(new Request
             {
-                _requestId = value;
-                OnPropertyChanged();
-            }
+                RequestId = 1,
+                StartDate = DateTime.Now,
+                TechTypeId = 1,
+                TechModel = "Model A",
+                Problem = "Issue with model A",
+                RequestStatusId = 1,
+                CompleteDate = null,
+                Parts = "Spare parts for A",
+                MasterId = 1,
+                ClientId = 1
+            });
         }
 
-        public DateTime? StartDate
+        private void AddRequest()
         {
-            get => _startDate;
-            set
+            if (string.IsNullOrWhiteSpace(NewRequestTechModel) || string.IsNullOrWhiteSpace(NewRequestProblem) ||
+                NewRequestTechTypeId == 0 || NewRequestRequestStatusId == 0 || NewRequestMasterId == 0 || NewRequestClientId == 0)
+                return;
+
+            var nextId = Requests.Any() ? Requests.Max(r => r.RequestId) + 1 : 1;
+            var newRequest = new Request
             {
-                _startDate = value;
-                OnPropertyChanged();
-            }
+                RequestId = nextId,
+                StartDate = NewRequestStartDate,
+                TechTypeId = NewRequestTechTypeId,
+                TechModel = NewRequestTechModel,
+                Problem = NewRequestProblem,
+                RequestStatusId = NewRequestRequestStatusId,
+                CompleteDate = NewRequestCompleteDate,
+                Parts = NewRequestParts,
+                MasterId = NewRequestMasterId,
+                ClientId = NewRequestClientId
+            };
+
+            Requests.Add(newRequest);
+
+            ClearNewRequestData();
+            OnPropertyChanged(nameof(NewRequestStartDate));
+            OnPropertyChanged(nameof(NewRequestTechTypeId));
+            OnPropertyChanged(nameof(NewRequestTechModel));
+            OnPropertyChanged(nameof(NewRequestProblem));
+            OnPropertyChanged(nameof(NewRequestRequestStatusId));
+            OnPropertyChanged(nameof(NewRequestCompleteDate));
+            OnPropertyChanged(nameof(NewRequestParts));
+            OnPropertyChanged(nameof(NewRequestMasterId));
+            OnPropertyChanged(nameof(NewRequestClientId));
         }
 
-        public int TechTypeId
+        private void DeleteRequest()
         {
-            get => _techTypeId;
-            set
-            {
-                _techTypeId = value;
-                OnPropertyChanged();
-            }
+            if (SelectedRequest == null)
+                return;
+
+            Requests.Remove(SelectedRequest);
         }
 
-        public string TechModel
+        private void ClearNewRequestData()
         {
-            get => _techModel;
-            set
-            {
-                _techModel = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Problem
-        {
-            get => _problem;
-            set
-            {
-                _problem = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public int RequestStatusId
-        {
-            get => _requestStatusId;
-            set
-            {
-                _requestStatusId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public DateTime? CompleteDate
-        {
-            get => _completeDate;
-            set
-            {
-                _completeDate = value;
-                OnPropertyChanged();
-                ValidateCompletionDate();
-            }
-        }
-
-        public string Parts
-        {
-            get => _parts;
-            set
-            {
-                _parts = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public int MasterId
-        {
-            get => _masterId;
-            set
-            {
-                _masterId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public int ClientId
-        {
-            get => _clientId;
-            set
-            {
-                _clientId = value;
-                OnPropertyChanged();
-            }
-        }
-
-        private bool _isCompletionDateValid;
-        public bool IsCompletionDateValid
-        {
-            get => _isCompletionDateValid;
-            private set
-            {
-                _isCompletionDateValid = value;
-                OnPropertyChanged();
-            }
-        }
-
-        private void ValidateCompletionDate()
-        {
-            IsCompletionDateValid = !CompleteDate.HasValue || (StartDate.HasValue && CompleteDate > StartDate);
-        }
-
-        public bool IsCompleted => CompleteDate.HasValue && RequestStatusId == 3;
-
-        public ICommand SaveCommand { get; }
-
-        private void Save()
-        {
-            // Save logic 
-        }
-
-        private bool CanSave()
-        {
-            return !string.IsNullOrEmpty(TechModel) &&
-                   !string.IsNullOrEmpty(Problem) &&
-                   StartDate.HasValue &&
-                   MasterId > 0 &&
-                   ClientId > 0;
+            NewRequestStartDate = null;
+            NewRequestTechTypeId = 0;
+            NewRequestTechModel = string.Empty;
+            NewRequestProblem = string.Empty;
+            NewRequestRequestStatusId = 0;
+            NewRequestCompleteDate = null;
+            NewRequestParts = string.Empty;
+            NewRequestMasterId = 0;
+            NewRequestClientId = 0;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -187,5 +129,6 @@ namespace AbdullinaPZ.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
+
 }
 

@@ -17,9 +17,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Source="/pics/lock.png" HorizontalAlignment="Left" Grid.Row="0"
-         Grid.ColumnSpan="2" Height="60" Width="60" VerticalAlignment="Top"/>
-
         <TextBlock Text="Типы пользователей" Padding="0, 3, 0, 0"
             Foreground="#363636" FontFamily="Noto Sans" FontSize="40" HorizontalAlignment="Left" 
             Margin="0,0,0,274" Width="430" TextAlignment="Center" Grid.Row="0" FontWeight="Bold" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
@@ -36,7 +33,7 @@
            Foreground="#363636"
            FontFamily="Noto Sans" 
            FontSize="12"
-           Background="White">  
+           Background="White">
 
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding UserTypeId}" Width="22"/>
@@ -71,8 +68,8 @@
         </DataGrid>
 
         <Button Grid.Row="2" Grid.Column="0" x:Name="AddReq" Content="Добавить тип" Click="AddReq_Click" Margin="285,3,285,2"
-     Padding="5" Width="180" Height="50" BorderThickness="0"
-     Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
+             Padding="5" Width="180" Height="50" BorderThickness="0"
+             Background="#363636" Foreground="White" FontFamily="Noto Sans" FontSize="18" Grid.ColumnSpan="2">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

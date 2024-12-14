@@ -9,7 +9,7 @@ namespace AbdullinaPZ18.Interfaces
     public interface IRequest
     {
         int RequestId { get; }
-        string StartDate { get; set; }
+        DateTime? StartDate { get; set; }
         int TechTypeId { get; set; }
         string TechModel { get; set; }
         string Problem { get; set; }

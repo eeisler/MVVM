@@ -15,3 +15,15 @@ D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\Abdulli
 D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\Abdullin.436059F6.Up2Date
 D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.exe
 D:\Users\abdullina.er1677\source\repos\AbdullinaPZ\AbdullinaPZ\obj\Debug\AbdullinaPZ.pdb
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\AbdullinaPZ.csproj.AssemblyReference.cache
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\Request.baml
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\Request.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\Main.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\TechTypes.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\Users.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\Views\UserTypes.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\App.g.cs
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\AbdullinaPZ_MarkupCompile.cache
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\AbdullinaPZ_MarkupCompile.lref
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\AbdullinaPZ.exe
+C:\Users\Александр\source\repos\eeisler\MVVM\AbdullinaPZ\obj\Debug\AbdullinaPZ.pdb
